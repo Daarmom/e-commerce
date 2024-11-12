@@ -1,0 +1,22 @@
+/* Custom image width for small screens
+@media (max-width: 576px) {
+  .custom-image {
+    width: 20%;
+    height: auto;
+  }
+}
+
+/* Custom image width for medium screens */
+@media (min-width: 576px) and (max-width: 768px) {
+  .custom-image {
+    width: 20%;
+  }
+}
+
+/* Custom image width for large screens */
+@media (min-width: 768px) {
+  .custom-image {
+    width: 20%;
+  }
+} 
+*/
