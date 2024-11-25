@@ -7,16 +7,24 @@
 }
 
 /* Custom image width for medium screens */
-@media (min-width: 576px) and (max-width: 768px) {
+/*@media (min-width: 576px) and (max-width: 768px) {
   .custom-image {
     width: 20%;
   }
 }
 
 /* Custom image width for large screens */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .custom-image {
     width: 20%;
   }
-} 
-*/
+} */
+
+.card-spacing .col {
+  padding: 0 15px; /* Adds padding left and right to create horizontal spacing */
+}
+
+.card-text {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
